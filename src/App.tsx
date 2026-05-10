@@ -46,16 +46,18 @@ function App() {
           <h2>Infrastructure for agents, APIs, and hard constraints.</h2>
         </div>
         <div className="featureGrid">
-          {projects.map((project) => (
-            <article className="feature" key={project.title}>
+          {projects.map((project) => {
+            const Wrapper = project.href ? "a" : "article";
+            return (
+            <Wrapper className="feature" key={project.title} href={project.href} target={project.href ? "_blank" : undefined} rel={project.href ? "noreferrer" : undefined}>
               <span>{project.codename}</span>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className="tagRow">
                 {project.tags.map((tag) => <small key={tag}>{tag}</small>)}
               </div>
-            </article>
-          ))}
+            </Wrapper>
+          )})}
         </div>
       </section>
 

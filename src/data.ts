@@ -11,11 +11,12 @@ export type ProjectItem = {
   title: string;
   description: string;
   tags: string[];
+  href?: string;
 };
 
 export const history: HistoryItem[] = [
   {
-    range: "2025 - NOW",
+    range: "2026",
     title: "PreMan / OpenTest",
     role: "FOUNDER",
     description:
@@ -31,7 +32,7 @@ export const history: HistoryItem[] = [
     tags: ["BACKEND", "INTEGRATIONS", "AGENT WORKFLOWS"],
   },
   {
-    range: "2024",
+    range: "2026",
     title: "YC Hackathons",
     role: "4X WINNER",
     description:
@@ -39,7 +40,7 @@ export const history: HistoryItem[] = [
     tags: ["SPEED", "PRODUCT", "EXECUTION"],
   },
   {
-    range: "2023 - 2024",
+    range: "2024 - 2025",
     title: "Stablecoin Remittance",
     role: "FOUNDER / BUILDER",
     description:
@@ -63,6 +64,7 @@ export const projects: ProjectItem[] = [
     description:
       "A developer tool that lets coding agents discover, test, deploy, and audit API endpoints as MCP tools.",
     tags: ["TYPESCRIPT", "PYTHON", "MCP", "POSTGRES"],
+    href: "https://preman.live",
   },
   {
     codename: "PROJECT ORIGIN",
