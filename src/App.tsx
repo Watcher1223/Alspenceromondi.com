@@ -17,13 +17,12 @@ function App() {
 
       <section id="top" className="hero">
         <div className="heroText">
-          <p className="pill">Founder · Harvey Mudd CS · Kenya</p>
-          <h1>Agent infrastructure, built fast.</h1>
+          <p className="pill">Founder · Engineer · Harvey Mudd CS</p>
+          <h1>Infrastructure for agentic software.</h1>
           <p>
-            I build tools that turn APIs into agent-callable systems with scoped
-            access, audit logs, and observability. I care about speed, but I care
-            more about making the system inspectable when agents start touching
-            production.
+            I’m building PreMan, a verification and control layer for AI agents,
+            APIs, and MCP-powered workflows. The goal is to make agent actions
+            secure, observable, and production-ready.
           </p>
           <div className="actions">
             <a className="button dark" href="#work">See work</a>
@@ -37,13 +36,13 @@ function App() {
         <div><b>4</b><span>YC hackathon wins</span></div>
         <div><b>40K+</b><span>users reached through systems I helped build</span></div>
         <div><b>1,250</b><span>remittance app signups</span></div>
-        <div><b>44K</b><span>national scholarship applicant pool</span></div>
+        <div><b>44K</b><span>student scholarship applicant pool</span></div>
       </section>
 
       <section id="work" className="section">
         <div className="sectionHead">
           <p>Selected work</p>
-          <h2>Infrastructure for agents, APIs, and hard constraints.</h2>
+          <h2>Infrastructure for agents, APIs, and production workflows.</h2>
         </div>
         <div className="featureGrid">
           {projects.map((project) => {
@@ -63,19 +62,19 @@ function App() {
 
       <section id="story" className="story">
         <div>
-          <p className="label">Origin</p>
-          <h2>Pressure made me fast. Harvey Mudd made me precise.</h2>
+          <p className="label">Background</p>
+          <h2>Building with urgency and technical rigor.</h2>
         </div>
         <div>
           <p>
-            I grew up in Kenya without a built-in safety net. Out of 44,000
-            students, I was selected into a 192-person scholarship cohort, then
-            became one of two students chosen from that group to continue school
-            in the United States.
+            I was selected from a pool of 44,000 students for a competitive
+            scholarship program that shaped my path to Harvey Mudd College.
           </p>
           <p>
-            That background shapes how I build. I move quickly, test aggressively,
-            and keep narrowing until the product has a real reason to exist.
+            At Harvey Mudd, I have focused on pairing speed with rigor. My work
+            sits at the edge of APIs, agents, auth, and developer experience,
+            where the hard part is making systems safe, inspectable, and useful
+            for real teams.
           </p>
         </div>
       </section>
@@ -99,7 +98,7 @@ function App() {
 
       <section className="finalCta">
         <h2>Building around agents, APIs, or infrastructure?</h2>
-        <p>I want to talk to people who move fast and care about systems that can actually survive production.</p>
+        <p>I want to talk to teams working on reliable agent workflows, developer infrastructure, and production systems.</p>
         <div className="actions">
           <a className="button dark" href={links.email}>Email</a>
           <a className="button" href={links.github} target="_blank" rel="noreferrer">GitHub</a>

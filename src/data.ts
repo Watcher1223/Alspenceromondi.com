@@ -17,11 +17,11 @@ export type ProjectItem = {
 export const history: HistoryItem[] = [
   {
     range: "2026",
-    title: "PreMan / OpenTest",
+    title: "PreMan",
     role: "FOUNDER",
     description:
-      "Turning REST APIs into hosted MCP servers with scoped customer tokens, revocation, audit logs, and agent observability.",
-    tags: ["MCP", "API INFRA", "AUTH", "AGENTS"],
+      "Building post-action verification, MCP governance, and API-to-agent infrastructure so teams can prove what their agents actually did.",
+    tags: ["MCP", "API INFRA", "VERIFICATION", "AGENTS"],
   },
   {
     range: "2024 - 2025",
@@ -52,7 +52,7 @@ export const history: HistoryItem[] = [
     title: "Harvey Mudd College",
     role: "CS",
     description:
-      "First in my family to graduate college. I came to the U.S. as one of two students selected from my scholarship cohort.",
+      "Computer science student selected through a competitive scholarship program from a pool of 44,000 students.",
     tags: ["CS", "RIGOR", "SYSTEMS"],
   },
 ];
@@ -60,24 +60,24 @@ export const history: HistoryItem[] = [
 export const projects: ProjectItem[] = [
   {
     codename: "PROJECT FASTPATH",
-    title: "OpenTest MCP",
+    title: "PreMan verification",
     description:
-      "A developer tool that lets coding agents discover, test, deploy, and audit API endpoints as MCP tools.",
-    tags: ["TYPESCRIPT", "PYTHON", "MCP", "POSTGRES"],
+      "A verification and control layer for AI agents that need to act through APIs, MCP tools, and customer systems.",
+    tags: ["TYPESCRIPT", "PYTHON", "MCP", "VERIFICATION"],
     href: "https://preman.live",
   },
   {
     codename: "PROJECT ORIGIN",
     title: "Kenya to U.S. rails",
     description:
-      "Real-time money movement experiment built from firsthand pain with slow, expensive cross-border transfers.",
+      "Real-time money movement experiment reducing days-long cross-border transfers into a seconds-long path.",
     tags: ["USDC", "PAYMENTS", "PRODUCT"],
   },
   {
     codename: "PROJECT RUNNER",
     title: "Hackathon systems",
     description:
-      "High-pressure builds where the constraint is brutal: find the real user pain and ship before the room catches up.",
+      "High-pressure builds focused on finding real user pain and shipping working product quickly.",
     tags: ["YC", "AGENTS", "SHIPPING"],
   },
 ];
